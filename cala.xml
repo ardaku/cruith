@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="cala" _name="Cala" version="1.0">
+
+  <author>Jeron Aldaron Lau</author>
+  <_description>Dark color scheme using the cala colors.</_description>
+
+  <!-- Cala Palette -->
+  <color name="foreground"                  value="#E3E7DF"/> <!-- Text color, Right margin background (past col 80) -->
+  <color name="lightgrey-foreground-25"     value="#B1726F"/> <!-- Secondary Cursor -->
+  <color name="background"                  value="#1C1820"/> <!-- Background color -->
+  <color name="background-darkgrey-25"      value="#2D2A30"/> <!-- Background Grid Pattern -->
+  <color name="background-darkgrey-50"      value="#3E3C40"/> <!-- Current line highlight -->
+
+  <color name="black"                       value="#000000"/> <!-- Line # background color -->
+  <color name="red"                         value="#FF2C28"/> <!-- Error -->
+  <color name="orange"                      value="#FF8800"/> <!-- Search Background -->
+
+  <color name="magenta"                     value="#FF24B0"/> <!-- Diff changed, Preprocessor, etc. -->
+  <color name="beige"                       value="#00D06C"/> <!-- Markdown Heading, etc. -->
+
+  <color name="lightgrey"                   value="#A0A0A0"/> <!-- Comments, markdown links -->
+  <color name="darkgrey"                    value="#606060"/> <!-- line #s -->
+  <color name="pink"                        value="#FF6868"/> <!-- Floats, Escaped Chars, etc. -->
+  <color name="lime"                        value="#00D02C"/> <!-- Literals, Strings, Diff+ etc. -->
+  <color name="yellow"                      value="#ECFF08"/> <!-- FIXME, TODO, etc. -->
+  <color name="teal"                        value="#40ABFF"/> <!-- Diff- etc. -->
+  <color name="fuchsia"                     value="#FF70A8"/> <!-- Bracket Match -->
+
+  <color name="white"                       value="#ffffff"/> <!-- Keyword, lifetime, selection text color -->
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="foreground" background="background"/>
+  <style name="selection"                   foreground="white" background="darkgrey"/>
+  <style name="cursor"                      foreground="foreground"/>
+  <style name="secondary-cursor"            foreground="lightgrey-foreground-25"/>
+  <style name="current-line"                background="background-darkgrey-50"/>
+  <style name="line-numbers"                foreground="darkgrey" background="black"/>
+  <style name="draw-spaces"                 foreground="lightgrey"/>
+  <style name="background-pattern"          background="background-darkgrey-25"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="fuchsia"/>
+  <style name="bracket-mismatch"            foreground="white" background="red"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="white" background="foreground"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="white" background="orange"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="lightgrey"/>
+  <style name="def:shebang"                 foreground="lightgrey" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="lime"/>
+  <style name="def:string"                  foreground="lime"/>
+  <style name="def:special-char"            foreground="pink"/>
+  <style name="def:special-constant"        foreground="pink"/>
+  <style name="def:floating-point"          foreground="pink"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="teal"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="white" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="beige" bold="true"/>
+
+  <!-- Markup -->
+  <style name="def:emphasis"                italic="true"/>
+  <style name="def:strong-emphasis"         foreground="white" bold="true"/>
+  <style name="def:inline-code"             foreground="teal"/>
+  <style name="def:insertion"               underline="single"/>
+  <style name="def:deletion"                strikethrough="true"/>
+  <style name="def:link-text"               foreground="lightgrey"/>
+  <style name="def:link-symbol"             foreground="lightgrey" bold="true"/>
+  <style name="def:link-destination"        italic="true" underline="single"/>
+  <style name="def:heading"                 foreground="beige" bold="true"/>
+  <style name="def:thematic-break"          foreground="beige" bold="true"/>
+  <style name="def:preformatted-section"    foreground="teal"/>
+  <style name="def:list-marker"             foreground="white" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="magenta"/>
+  <style name="def:error"                   foreground="white" background="red" bold="true"/>
+  <style name="def:warning"                 foreground="white" background="magenta"/>
+  <style name="def:note"                    background="yellow" foreground="lightgrey" bold="true"/>
+  <style name="def:net-address"             italic="true" underline="single"/>
+
+  <!-- Heading styles, uncomment to enable -->
+  <style name="def:heading0"                scale="5.0"/>
+  <style name="def:heading1"                scale="2.5"/>
+  <style name="def:heading2"                scale="2.0"/>
+  <style name="def:heading3"                scale="1.7"/>
+  <style name="def:heading4"                scale="1.5"/>
+  <style name="def:heading5"                scale="1.3"/>
+  <style name="def:heading6"                scale="1.2"/>
+
+  <!-- Language specific -->
+  <style name="diff:added-line"             foreground="lime"/>
+  <style name="diff:removed-line"           foreground="teal"/>
+  <style name="diff:changed-line"           foreground="magenta"/>
+  <style name="diff:diff-file"              foreground="beige" bold="true"/>
+  <style name="diff:location"               foreground="beige"/>
+  <style name="diff:special-case"           foreground="white" bold="true"/>
+
+  <style name="latex:command"               foreground="beige" bold="true"/>
+  <style name="latex:include"               use-style="def:preprocessor"/>
+
+</style-scheme>
+
