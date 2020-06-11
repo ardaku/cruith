@@ -1,6 +1,8 @@
 # color-scheme
 The Cala Color Scheme - ANSI Color Palette Designed For Maximum Contrast.
 
+![Palette](palette.gif)
+
 ## Motivation
 Default colors in GTK aren't super easy for me to distinguish (I'm red-green
 colorblind).  The built-in alternate themes are even worse, so I made this.
