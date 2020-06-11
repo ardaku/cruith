@@ -14,7 +14,7 @@
 
   <color name="black"                       value="#000000"/> <!-- Line # background color -->
   <color name="red"                         value="#FF2C28"/> <!-- Error -->
-  <color name="orange"                      value="#FF8800"/> <!-- Search Background -->
+  <color name="orange"                      value="#FF9C00"/> <!-- Search Background -->
 
   <color name="magenta"                     value="#FF24B0"/> <!-- Diff changed, Preprocessor, etc. -->
   <color name="beige"                       value="#00D06C"/> <!-- Markdown Heading, etc. -->
@@ -22,7 +22,7 @@
   <color name="lightgrey"                   value="#A0A0A0"/> <!-- Comments, markdown links -->
   <color name="darkgrey"                    value="#606060"/> <!-- line #s -->
   <color name="pink"                        value="#FF6868"/> <!-- Floats, Escaped Chars, etc. -->
-  <color name="lime"                        value="#00D02C"/> <!-- Literals, Strings, Diff+ etc. -->
+  <color name="lime"                        value="#00C02C"/> <!-- Literals, Strings, Diff+ etc. -->
   <color name="yellow"                      value="#ECFF08"/> <!-- FIXME, TODO, etc. -->
   <color name="teal"                        value="#40ABFF"/> <!-- Diff- etc. -->
   <color name="fuchsia"                     value="#FF70A8"/> <!-- Bracket Match -->

@@ -6,16 +6,16 @@ Default Background: Off-black           #1C1820
 0 "Black"           Black               #000000
 1 "Red"             Red                 #FF2C28
 2 "Green"           Green               #008C20
-3 "Yellow"          Orange              #FF8800
+3 "Yellow"          Orange              #FF9C00
 4 "Blue"            Blue                #1C48FF
-5 "Magenta"         Magenta             #FF24B0
-6 "Cyan"            Beige               #00D06C
+5 "Magenta"         Fuchsia             #FF24B0
+6 "Cyan"            Aqua                #00D06C
 7 "White"           Light Grey          #A0A0A0
 8 "Bright Black"    Dark Grey           #606060
 9 "Bright Red"      Pink                #FF6868
-A "Bright Green"    Lime                #00B028
+A "Bright Green"    Lime                #00C02C
 B "Bright Yellow"   Yellow              #ECFF08
 C "Bright Blue"     Teal                #40ABFF
-D "Bright Magenta"  Fuchsia             #FF70A8
-E "Bright Cyan"     Peach               #44FFA4
+D "Bright Magenta"  Violet              #FF70A8
+E "Bright Cyan"     Emerald             #44FFA4
 F "Bright White"    White               #FFFFFF
