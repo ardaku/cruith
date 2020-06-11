@@ -13,7 +13,7 @@ Default Background: Off-black           #1C1820
 7 "White"           Light Grey          #A0A0A0
 8 "Bright Black"    Dark Grey           #606060
 9 "Bright Red"      Pink                #FF6868
-A "Bright Green"    Lime                #00C02C
+A "Bright Green"    Lime                #00D02C
 B "Bright Yellow"   Yellow              #ECFF08
 C "Bright Blue"     Teal                #40ABFF
 D "Bright Magenta"  Violet              #FF70A8
