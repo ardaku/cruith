@@ -1,5 +1,5 @@
 # color-scheme
-The Cala Color Scheme - ANSI Color Palette Designed For Maximum Contrast.
+The Cala Color Scheme - ANSI/GUI Color Palette Designed For Maximum Contrast.
 
 ![Palette](palette.gif)
 
