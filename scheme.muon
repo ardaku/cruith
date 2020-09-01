@@ -1,37 +1,37 @@
 # Color Scheme in MuON format.
 
 # ANSI (Dark Mode): "Default"
-bg_dark: x0C_0C_0C  # background in dark mode
-fg_white: xFF_FF_FF # primary color in dark mode
+bg_dark: x0C0C0C  # background in dark mode
+fg_white: xFFFFFF # primary color in dark mode
 
 # ANSI (Dark Mode): "Black"
-fg_black: x00_00_00 # border in dark mode, primary color in light mode
-fg_border: xEC_EC_EC # border in light mode
+fg_black: x000000 # border in dark mode, primary color in light mode
+fg_gray: x4C5C4C  # secondary color
 
 # ANSI (Dark Mode): "Red"
-fg_red: xC0_00_00
-fg_pink: xFF_2D_2D
+fg_red: xFF2020
+fg_pink: xFF5074
 
 # ANSI (Dark Mode): "Green"
-fg_green: x00_78_20
-fg_lime: x00_D0_2C
+fg_green: x007820
+fg_lime: x00D02C
 
 # ANSI (Dark Mode): "Yellow"
-fg_orange: xFF_80_00
-fg_yellow: xEC_FF_08
+fg_orange: xFF8000
+fg_yellow: xECFF08
 
 # ANSI (Dark Mode): "Blue"
-fg_blue: x00_00_FF
-fg_lavender: xFF_40_FF
+fg_blue: x0000FF
+fg_lavender: xFF40FF
 
 # ANSI (Dark Mode): "Magenta"
-fg_magenta: xFF_00_84
-fg_cyan: x00_C0_FF
+fg_magenta: xFF0084
+fg_cyan: x00C0FF
 
 # ANSI (Dark Mode): "Cyan"
-fg_teal: x00_D0_6C
-fg_peach: x25_ED_94
+fg_teal: x00D06C
+fg_peach: x24EC94
 
 # ANSI (Dark Mode): "White"
-fg_gray: x_4C_5C_5C # secondary color
-bg_light: x_DC_DC_DC # background in light mode
+bg_light: xDCDCDC  # background in light mode
+fg_border: xECECEC # border in light mode
