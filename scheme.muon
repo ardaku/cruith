@@ -21,11 +21,11 @@ fg_orange: xFF_80_00
 fg_yellow: xEC_FF_08
 
 # ANSI (Dark Mode): "Blue"
-fg_fuchsia: xFF_00_60
 fg_blue: x00_00_FF
+fg_lavender: xFF_40_FF
 
 # ANSI (Dark Mode): "Magenta"
-fg_magenta: xFF_40_FF
+fg_magenta: xFF_00_84
 fg_cyan: x00_C0_FF
 
 # ANSI (Dark Mode): "Cyan"
