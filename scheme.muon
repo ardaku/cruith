@@ -6,7 +6,7 @@ fg_white: xFFFFFF # primary color in dark mode
 
 # ANSI (Dark Mode): "Black"
 fg_black: x000000 # border in dark mode, primary color in light mode
-fg_gray: x4C5C4C  # secondary color
+fg_gray: x7C8C7C  # secondary color
 
 # ANSI (Dark Mode): "Red"
 fg_red: xFF2020
