@@ -22,7 +22,7 @@ fg_yellow: xECFF08
 
 # ANSI (Dark Mode): "Blue"
 fg_blue: x0000FF
-fg_lavender: xFF40FF
+fg_lavender: xFF48FF
 
 # ANSI (Dark Mode): "Magenta"
 fg_magenta: xFF0084
